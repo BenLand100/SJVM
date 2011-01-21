@@ -1,0 +1,128 @@
+#
+# Gererated Makefile - do not edit!
+#
+# Edit the Makefile in the project folder instead (../Makefile). Each target
+# has a -pre and a -post target defined where you can add customized code.
+#
+# This makefile implements configuration specific macros and targets.
+
+
+# Environment
+MKDIR=mkdir
+CP=cp
+CCADMIN=CCadmin
+RANLIB=ranlib
+CC=gcc.exe
+CCC=g++.exe
+CXX=g++.exe
+FC=g77.exe
+
+# Include project Makefile
+include Makefile
+
+# Object Directory
+OBJECTDIR=build/Release/MinGW-Windows
+
+# Object Files
+OBJECTFILES= \
+	${OBJECTDIR}/jni.o \
+	${OBJECTDIR}/LeakTracer.o \
+	${OBJECTDIR}/cpinfo.o \
+	${OBJECTDIR}/jar.o \
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/sjvm.o \
+	${OBJECTDIR}/classloader.o \
+	${OBJECTDIR}/object.o \
+	${OBJECTDIR}/fieldinfo.o \
+	${OBJECTDIR}/attributeinfo.o \
+	${OBJECTDIR}/classfile.o \
+	${OBJECTDIR}/inflate.o \
+	${OBJECTDIR}/methodinfo.o \
+	${OBJECTDIR}/exception.o
+
+# C Compiler Flags
+CFLAGS=
+
+# CC Compiler Flags
+CCFLAGS=
+CXXFLAGS=
+
+# Fortran Compiler Flags
+FFLAGS=
+
+# Link Libraries and Options
+LDLIBSOPTIONS=
+
+# Build Targets
+.build-conf: ${BUILD_SUBPROJECTS} dist/Release/MinGW-Windows/sjvm.exe
+
+dist/Release/MinGW-Windows/sjvm.exe: ${OBJECTFILES}
+	${MKDIR} -p dist/Release/MinGW-Windows
+	${LINK.cc} -o dist/Release/MinGW-Windows/sjvm ${OBJECTFILES} ${LDLIBSOPTIONS} 
+
+${OBJECTDIR}/jni.o: jni.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/jni.o jni.cpp
+
+${OBJECTDIR}/LeakTracer.o: LeakTracer.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/LeakTracer.o LeakTracer.cpp
+
+${OBJECTDIR}/cpinfo.o: cpinfo.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/cpinfo.o cpinfo.cpp
+
+${OBJECTDIR}/jar.o: jar.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/jar.o jar.cpp
+
+${OBJECTDIR}/main.o: main.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/main.o main.cpp
+
+${OBJECTDIR}/sjvm.o: sjvm.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/sjvm.o sjvm.cpp
+
+${OBJECTDIR}/classloader.o: classloader.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/classloader.o classloader.cpp
+
+${OBJECTDIR}/object.o: object.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/object.o object.cpp
+
+${OBJECTDIR}/fieldinfo.o: fieldinfo.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/fieldinfo.o fieldinfo.cpp
+
+${OBJECTDIR}/attributeinfo.o: attributeinfo.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/attributeinfo.o attributeinfo.cpp
+
+${OBJECTDIR}/classfile.o: classfile.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/classfile.o classfile.cpp
+
+${OBJECTDIR}/inflate.o: inflate.c 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.c) -O2 -o ${OBJECTDIR}/inflate.o inflate.c
+
+${OBJECTDIR}/methodinfo.o: methodinfo.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/methodinfo.o methodinfo.cpp
+
+${OBJECTDIR}/exception.o: exception.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	$(COMPILE.cc) -O2 -o ${OBJECTDIR}/exception.o exception.cpp
+
+# Subprojects
+.build-subprojects:
+
+# Clean Targets
+.clean-conf:
+	${RM} -r build/Release
+	${RM} dist/Release/MinGW-Windows/sjvm.exe
+
+# Subprojects
+.clean-subprojects:

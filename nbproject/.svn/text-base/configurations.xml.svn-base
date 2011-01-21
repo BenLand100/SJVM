@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="45">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Arrays.h</itemPath>
+      <itemPath>AttributeInfo.h</itemPath>
+      <itemPath>ClassFile.h</itemPath>
+      <itemPath>ClassLoader.h</itemPath>
+      <itemPath>CPInfo.h</itemPath>
+      <itemPath>Exception.h</itemPath>
+      <itemPath>FieldInfo.h</itemPath>
+      <itemPath>GarbageCollector.h</itemPath>
+      <itemPath>Inflate.h</itemPath>
+      <itemPath>Jar.h</itemPath>
+      <itemPath>jni.h</itemPath>
+      <itemPath>MethodInfo.h</itemPath>
+      <itemPath>Mutex.h</itemPath>
+      <itemPath>Native.h</itemPath>
+      <itemPath>Object.h</itemPath>
+      <itemPath>OPCodes.h</itemPath>
+      <itemPath>SJVM.h</itemPath>
+      <itemPath>Thread.h</itemPath>
+      <itemPath>Types.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="OS Dependant" projectFiles="true">
+        <itemPath>mutex.cpp</itemPath>
+        <itemPath>native.cpp</itemPath>
+        <itemPath>thread.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>attributeinfo.cpp</itemPath>
+      <itemPath>classfile.cpp</itemPath>
+      <itemPath>classloader.cpp</itemPath>
+      <itemPath>cpinfo.cpp</itemPath>
+      <itemPath>exception.cpp</itemPath>
+      <itemPath>fieldinfo.cpp</itemPath>
+      <itemPath>garbagecollector.cpp</itemPath>
+      <itemPath>gnuclasspath.cpp</itemPath>
+      <itemPath>inflate.c</itemPath>
+      <itemPath>jar.cpp</itemPath>
+      <itemPath>jni.cpp</itemPath>
+      <itemPath>LeakTracer.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>methodinfo.cpp</itemPath>
+      <itemPath>object.cpp</itemPath>
+      <itemPath>sjvm.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceEncoding>UTF-8</sourceEncoding>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Arrays.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="AttributeInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="CPInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ClassFile.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ClassLoader.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Exception.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="FieldInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="GarbageCollector.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Inflate.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Jar.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="LeakTracer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="MethodInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Mutex.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Native.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="OPCodes.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Object.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="SJVM.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Thread.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Types.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="attributeinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="classfile.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="classloader.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="cpinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="exception.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="fieldinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="garbagecollector.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="gnuclasspath.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="inflate.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="jar.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="jni.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="jni.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="main.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="methodinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="mutex.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="native.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="object.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sjvm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="thread.cpp">
+        <itemTool>1</itemTool>
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cCompilerTool>
+          <developmentMode>5</developmentMode>
+        </cCompilerTool>
+        <ccCompilerTool>
+          <developmentMode>5</developmentMode>
+        </ccCompilerTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Arrays.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="AttributeInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="CPInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ClassFile.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ClassLoader.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Exception.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="FieldInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="GarbageCollector.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Inflate.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Jar.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="LeakTracer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="MethodInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Mutex.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Native.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="OPCodes.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Object.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="SJVM.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Thread.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Types.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="attributeinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="classfile.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="classloader.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="cpinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="exception.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="fieldinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="garbagecollector.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="gnuclasspath.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="inflate.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="jar.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="jni.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="jni.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="main.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="methodinfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="mutex.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="native.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="object.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sjvm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="thread.cpp">
+        <itemTool>1</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
